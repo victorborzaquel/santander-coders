@@ -18,12 +18,11 @@ public class Ex05 {
         Map<Integer, Integer> map = new HashMap<>();
         int search;
         for (int i = 0; i < numbers.length; i++) {
-            map.putIfAbsent(numbers[i], i);
-
             search = target - numbers[i];
             if (map.containsKey(search)) {
                 return new Integer[]{map.get(search), i};
             }
+            map.putIfAbsent(numbers[i], i);
         }
         return new Integer[2];
     }
