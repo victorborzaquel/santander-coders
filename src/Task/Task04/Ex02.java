@@ -1,3 +1,5 @@
+package Task.Task04;
+
 import java.util.Arrays;
 
 public class Ex02 {

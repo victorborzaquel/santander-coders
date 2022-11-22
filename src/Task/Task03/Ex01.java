@@ -1,6 +1,8 @@
+package Task.Task03;
+
 import java.util.Scanner;
 
-public class Tarefa03 {
+public class Ex01 {
     public static void main(String[] args) {
         int[] numbers = {1, 3, 5, 7};
 

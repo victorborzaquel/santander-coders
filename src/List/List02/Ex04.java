@@ -1,3 +1,5 @@
+package List.List02;
+
 import java.util.Scanner;
 
 public class Ex04 {
