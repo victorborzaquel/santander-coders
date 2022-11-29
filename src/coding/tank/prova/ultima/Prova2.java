@@ -99,7 +99,7 @@ public class Prova2 {
         for (int linha = 0; linha < matriz.length; linha++) {
             int[] colunas = matriz[linha];
             for (int coluna = 0; coluna < colunas.length; coluna++) {
-                int valorAleatorio = random.nextInt(0, 1000);
+                int valorAleatorio = random.nextInt(1000);
                 colunas[coluna] = valorAleatorio;
                 System.out.print("[" + valorAleatorio + "]");
             }
