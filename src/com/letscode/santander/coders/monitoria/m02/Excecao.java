@@ -45,6 +45,6 @@ public class Excecao {
     }
 }
 
-enum AgenciInvalida { CERTO, ERRADO }
+enum AgenciaInvalida { CERTO, ERRADO }
 
 class AgenciaException extends Exception { }
