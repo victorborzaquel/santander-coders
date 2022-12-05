@@ -1,4 +1,4 @@
-package com.letscode.santander.coders.poo1.tarefas.a02.objetos.casa.smart.tv;
+package com.letscode.santander.coders.poo1.tarefas.a02.objetos.casa.v1.smart.tv;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package com.letscode.santander.coders.poo1.tarefas.a02.objetos.casa;
+package com.letscode.santander.coders.poo1.tarefas.a02.objetos.casa.v1;
 
-import com.letscode.santander.coders.poo1.tarefas.a02.objetos.casa.smart.tv.*;
+import com.letscode.santander.coders.poo1.tarefas.a02.objetos.casa.v1.smart.tv.SmartTv;
 
 import java.util.*;
 
