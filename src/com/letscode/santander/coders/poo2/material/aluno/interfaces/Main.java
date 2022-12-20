@@ -1,8 +1,6 @@
 package com.letscode.santander.coders.poo2.material.aluno.interfaces;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -22,7 +20,7 @@ public class Main {
 
         Collections.sort(empregados);
 
-        System.out.printf("%n%n>>>> Depois da ordenação.");
+        System.out.printf("%n%n>>>> Depois da ordenação.%n");
         empregados.forEach(System.out::println);
     }
 }

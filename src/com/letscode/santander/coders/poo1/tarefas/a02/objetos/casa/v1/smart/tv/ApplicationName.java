@@ -11,7 +11,7 @@ public enum ApplicationName {
     AMAZON_PRIME(5);
 
     private final int id;
-    private static Map<Integer, ApplicationName> map = new HashMap<>();
+    private static final Map<Integer, ApplicationName> map = new HashMap<>();
 
     ApplicationName(int id) {
         this.id = id;
@@ -23,15 +23,6 @@ public enum ApplicationName {
         }
     }
 
-//    public String toString() {
-//        String string = "";
-//
-//        for (Application application : Application.values()) {
-//            string = string.concat(application.name()).concat("\n");
-//        }
-//
-//        return string;
-//    }
     public static ApplicationName valueOf(int id) {
         return map.get(id);
     }
